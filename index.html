@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style/style.scss" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li><a class="nav-links" href="./index.html">Home</a></li>
+        <li><a class="nav-links" href="./about.html">About</a></li>
+        <li><a class="nav-links" href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main data-router-wrapper>
+      <section data-router-view="home" class="home">
+        <div class="home-content">
+          <div class="home-presentation">
+            <h1>Seamsless Transition</h1>
+            <p>Beautiful transition between html pages</p>
+          </div>
+          <img src="./images/home.svg" alt="home" />
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
